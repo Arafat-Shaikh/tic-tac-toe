@@ -20,12 +20,6 @@ body{
     grid-template-columns: repeat(3, 1fr);
 }
 
-.col{
-    border: 5px solid #4e4242;
-    position: relative;
-
-}
-
 .circle {
     position: absolute; /* Position the circle absolutely */
     top: 50%; /* Position it in the middle vertically */
@@ -65,8 +59,13 @@ body{
   }
   
   .col {
-    border: 1px solid #000;
+    border: 5px solid #000;
     position: relative;
   }
   
-  
+  #text{
+    color: blueviolet;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+  }
